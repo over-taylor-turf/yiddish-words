@@ -8,4 +8,4 @@ class ApprovedWord(models.Model):
     bubbe = models.CharField(max_length=255)
 
     def __str__(self):
-            return f"{self.name} is pronounced as '{self.phonetic_spelling}' and means '{self.definition}'. An example sentence would be, '{self.example_sentence}' This word has been added in honor of Bubbe {self.bubbe}."
+            return f"{self.word} is pronounced as '{self.phonetic_spelling}' and means '{self.definition}'. An example sentence would be, '{self.example_sentence}' This word has been added in honor of Bubbe {self.bubbe}."
