@@ -1,2 +1,1 @@
-web: gunicorn yiddishwords.wsgi
-release: python manage.py migrate
+web: gunicorn yiddishwords.wsgi --log-file -
