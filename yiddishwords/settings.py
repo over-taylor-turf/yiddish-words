@@ -33,13 +33,15 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # Edits: ⬇️
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'django-insecure-dd-s7qp16@sv!d9c!a-)&y_o6&5#1xr&066(%(37pge+ql_2w('
+# heroku config:set SECRET_KEY='django-insecure-dd-s7qp16@sv!d9c!a-)&y_o6&5#1xr&066(%(37pge+ql_2w('
+
 
 # Edits: ⬇️
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'vast-taiga-59879.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'yiddishwordsapi.herokuapp.com']
 
 
 # Application definition
